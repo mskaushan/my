@@ -321,6 +321,7 @@ h1,h2,h3 {
     .menu-item {
         display: block;
         padding: 20px 100px;
+        font-size: 1.2em;
     }
     #menu-toggle:checked ~ .menu-btn > span {
         transform: rotate(45deg);
