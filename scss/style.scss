@@ -102,10 +102,10 @@ h1,h2,h3 {
 .section-about {
     color: $color-text-primary;
     background-color: $color-background;
-    @media screen and (max-width: $screen-sm-max) {
+    @media screen and (max-width: $screen-md-max) {
         padding: 60px 0px 0px 0px;
     }
-    @media screen and (min-width: $screen-md-min) {
+    @media screen and (min-width: $screen-lg-min) {
         margin-top: 60px;
         padding: 60px 0px;
     }
@@ -168,10 +168,10 @@ h1,h2,h3 {
 .section-portfolio {
     color: $color-text-primary;
     background-color: $color-background;
-    @media screen and (max-width: $screen-sm-max) {
+    @media screen and (max-width: $screen-md-max) {
         padding: 60px 0px 0px 0px;
     }
-    @media screen and (min-width: $screen-md-min) {
+    @media screen and (min-width: $screen-lg-min) {
         padding: 60px 0px;
     }
     h2 {
@@ -276,13 +276,13 @@ h1,h2,h3 {
 }
 
 // === Menu ===
-@media screen and (max-width: $screen-sm-max) {
+@media screen and (max-width: $screen-md-max) {
     .menu-btn {
         display: flex;
         align-items: center;
         position: fixed;
         top: 18px;
-        right: 12px;
+        right: 10px;
         width: 26px;
         height: 26px;
         cursor: pointer;

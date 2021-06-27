@@ -63,10 +63,10 @@ h1, h2, h3 {
 .section-about {
   color: #fff;
   background-color: #141d28; }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 991px) {
     .section-about {
       padding: 60px 0px 0px 0px; } }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .section-about {
       margin-top: 60px;
       padding: 60px 0px; } }
@@ -114,10 +114,10 @@ h1, h2, h3 {
 .section-portfolio {
   color: #fff;
   background-color: #141d28; }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 991px) {
     .section-portfolio {
       padding: 60px 0px 0px 0px; } }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .section-portfolio {
       padding: 60px 0px; } }
   .section-portfolio h2 {
@@ -198,13 +198,13 @@ h1, h2, h3 {
     .footer .footer-contact a:not(:first-child) {
       margin-left: 5px; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .menu-btn {
     display: flex;
     align-items: center;
     position: fixed;
     top: 18px;
-    right: 12px;
+    right: 10px;
     width: 26px;
     height: 26px;
     cursor: pointer;
