@@ -30,6 +30,17 @@ html {
 ::selection {
     background-color: #3e5f8a;
 }
+::-webkit-scrollbar {
+    width: 8px;
+} 
+::-webkit-scrollbar-thumb {
+    background: white;
+    border: 2px solid $color-background;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+    background: $color-background;
+}
 a {
     color: $color-text-primary;
     text-decoration: none;

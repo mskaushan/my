@@ -11,6 +11,17 @@ html {
 ::selection {
   background-color: #3e5f8a; }
 
+::-webkit-scrollbar {
+  width: 8px; }
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border: 2px solid #141d28;
+  border-radius: 6px; }
+
+::-webkit-scrollbar-track {
+  background: #141d28; }
+
 a {
   color: #fff;
   text-decoration: none; }
