@@ -14,6 +14,21 @@ document.querySelectorAll('.menu-item').forEach((item) =>
 )
 */
 
-document.querySelector('.menu').addEventListener('click', () => {
+const menu = document.querySelector('.menu');
+
+menu.addEventListener('click', () => {
     document.querySelector('input[type="checkbox"].input').checked = false;
+})
+
+menu.addEventListener('click', (event) => {
+    if (event.target.classList.contains('menu-item')) {
+        event.preventDefault();
+
+        const id = event.target.getAttribute('href').replace('#', '');
+
+        window.scrollTo({
+            top: document.getElementById(id).offsetTop,
+            behavior: 'smooth',
+        });
+    }
 })
