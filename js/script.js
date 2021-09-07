@@ -7,20 +7,18 @@
 */
 
 /*
+menu.addEventListener('click', () => {
+    document.querySelector('input[type="checkbox"].input').checked = false;
+})
+*/
+
 document.querySelectorAll('.menu-item').forEach((item) =>
     item.addEventListener('click', () => {
         document.querySelector('input[type="checkbox"].input').checked = false;
     })
 )
-*/
 
-const menu = document.querySelector('.menu');
-
-menu.addEventListener('click', () => {
-    document.querySelector('input[type="checkbox"].input').checked = false;
-})
-
-menu.addEventListener('click', (event) => {
+document.querySelector('.menu').addEventListener('click', (event) => {
     if (event.target.classList.contains('menu-item')) {
         event.preventDefault();
 
