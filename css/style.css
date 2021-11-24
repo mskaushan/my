@@ -55,16 +55,16 @@ h1, h2, h3 {
         .header .header-wrapper .header-logo .header-logo_inner h1 {
           font-size: 24px; } }
       .header .header-wrapper .header-logo .header-logo_inner h1 .header-logo_lastname {
-        color: #f34723; }
+        color: #cc3122; }
   @media screen and (min-width: 768px) {
     .header .header-nav .menu .menu-item {
       margin-top: 0px;
       margin-left: 36px; } }
   .header .header-nav .menu a:hover {
-    color: #f34723;
+    color: #cc3122;
     transition: .2s; }
   .header .header-nav .menu a:active {
-    color: #b13e27; }
+    color: #a1261b; }
   .header .header-nav .input {
     display: none; }
 
@@ -106,18 +106,18 @@ h1, h2, h3 {
     .section-about .section-about_content .section-about_text a .button-resume {
       width: 96px;
       height: 32px;
-      border: 2px solid #f34723;
+      border: 2px solid #cc3122;
       border-radius: 2px;
       font-size: 16px;
       color: #fff;
       background-color: #141d28;
       cursor: pointer; }
     .section-about .section-about_content .section-about_text a .button-resume:hover {
-      background-color: #f34723;
+      background-color: #cc3122;
       transition: .2s; }
     .section-about .section-about_content .section-about_text a .button-resume:active {
-      background-color: #b13e27;
-      border-color: #b13e27; }
+      background-color: #a1261b;
+      border-color: #a1261b; }
 
 .section-portfolio {
   color: #fff;
@@ -178,7 +178,7 @@ h1, h2, h3 {
           flex-direction: column; } }
       .section-education .section-education_wrapper-outer .section-education_wrapper-inner .section-education_year {
         font-size: 32px;
-        color: #f34723;
+        color: #cc3122;
         white-space: nowrap; }
       @media screen and (min-width: 768px) {
         .section-education .section-education_wrapper-outer .section-education_wrapper-inner .section-education_place {
@@ -199,10 +199,10 @@ h1, h2, h3 {
   .footer .footer-contact {
     margin: 0 auto; }
     .footer .footer-contact a:hover {
-      color: #f34723;
+      color: #cc3122;
       transition: .2s; }
     .footer .footer-contact a:active {
-      color: #b13e27; }
+      color: #a1261b; }
     .footer .footer-contact a:not(:first-child) {
       margin-left: 5px; }
 
