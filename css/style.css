@@ -204,7 +204,7 @@ h1, h2, h3 {
     .footer .footer-contact a:active {
       color: #a1261b; }
     .footer .footer-contact a:not(:first-child) {
-      margin-left: 5px; }
+      margin-left: 10px; }
 
 @media screen and (max-width: 991px) {
   .menu-btn {
